@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Cuisine Savoureuse - recepty</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html">
+                <p>Cuisine Savoureuse</p>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Domů</a>
+                <a href="recepty.html">Recepty</a>
+                <a href="omne.html">O mně</a>
+            </div>
+        </div>
+    </nav>
+    <article class="headers">
+        <h1>Katalog receptů</h1>
+    </article>
+    <section class="kategorie-btns">
+        <button class="kat-btn active" data-kategorie="vse">Vše</button>
+        <button class="kat-btn" data-kategorie="snidane">Snídaně</button>
+        <button class="kat-btn" data-kategorie="obed">Oběd</button>
+        <button class="kat-btn" data-kategorie="dezert">Dezert</button>
+    </section>
+    <main class="katalog">
+        <div class="katalog-grid">
+            <a href="recepty/recept.html" class="recept-link" data-kategorie="snidane">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Protein Yogurt Bowl</h3>
+                        <p>10min</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/spizy.html" class="recept-link" data-kategorie="obed">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/spiz.jpg" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Masové špízy</h3>
+                        <p>120min - 8 porcí</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/recept.html" class="recept-link" data-kategorie="obed">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Název</h3>
+                        <p>60min - 8 porcí</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/recept.html" class="recept-link" data-kategorie="obed">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Název</h3>
+                        <p>60min - 8 porcí</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/recept.html" class="recept-link" data-kategorie="obed">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Název</h3>
+                        <p>60min - 8 porcí</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/recept.html" class="recept-link" data-kategorie="obed">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Název</h3>
+                        <p>60min - 8 porcí</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/recept.html" class="recept-link" data-kategorie="obed">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Název</h3>
+                        <p>60min - 8 porcí</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/recept.html" class="recept-link" data-kategorie="dezert">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Název</h3>
+                        <p>60min - 8 porcí</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+            <a href="recepty/recept.html" class="recept-link", data-kategorie="dezert">
+                <div class="recept">
+                    <div class="recept-image">
+                        <img src="obrazky/image.png" alt="">
+                    </div>
+                    <section class="recept-info">
+                        <h3>Jablečný závin</h3>
+                        <p>40-50min</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus placeat</p>
+                    </section>
+                </div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>&#169; 2026 Cuisine Savoureuse</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
